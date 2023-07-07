@@ -124,7 +124,7 @@ The panel object implements this interface:
 
 - [`hide()` (optional)](/develop/reference/ui/panels/hide/): called when your panel is hidden/closed.
 
-- [`update` (optional)](/develop/reference/ui/panels/update/): called whenever panel UI content should be updated. This includes when the panel is is shown, when the selection changes, or when the selected objects are mutated (move, resize, fill color change, etc.). This function should execute quickly since it's triggered for essentially every user action in XD while your panel is open. XD passes `update()` [two arguments providing useful context](#contextual-arguments).
+- [`update` (optional)](/develop/reference/ui/panels/update/): called whenever panel UI content should be updated. This includes when the panel is shown, when the selection changes, or when the selected objects are mutated (move, resize, fill color change, etc.). This function should execute quickly since it's triggered for essentially every user action in XD while your panel is open. XD passes `update()` [two arguments providing useful context](#contextual-arguments).
 
 Typically, you'll attach UI event listeners to the DOM nodes in your panel, and these event listeners may [edit the XD document using an `application.editDocument()` operation](/develop/plugin-development/xd-concepts/lifecycle/#edit-operations).
 
