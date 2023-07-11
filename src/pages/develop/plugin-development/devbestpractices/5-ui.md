@@ -55,7 +55,7 @@ Pill buttons are interactive, clickable buttons within your plugin’s user inte
 
 Buttons can also have a border (default) or be quiet (less visually intrusive).
 
-- (5.4.1) There should **_never_** be more than one `cta` button in a dialog at once time.
+- (5.4.1) There should **_never_** be more than one `cta` button in a dialog at one time.
 - (5.4.2) The `cta` button should _usually_ be the default action (if **ENTER** is pressed).
 - (5.4.3) A `warning` button must **_never_** \***\*be triggered if **ENTER\*\* is pressed.
 - (5.4.4) Use quiet buttons sparingly. The lack of border makes it more difficult for the user to recognize the button as a button.
